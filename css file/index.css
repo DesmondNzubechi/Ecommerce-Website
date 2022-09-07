@@ -1,0 +1,1062 @@
+/*========= GOOGLE FONTS LINK START============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Poppins:wght@200;300;400&display=swap');
+
+/*========= GOOGLE FONTS LINK END============*/
+
+/*========= DEFAULT STYLING START============*/
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden ;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+.bars{
+	display: none;
+}
+/*=========HEADER  STYLING START===========*/
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 10px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	width: 100%;
+	box-shadow: 0 0 5px gray;
+
+}
+
+/*logo styling*/
+
+.logo a{
+text-decoration: none;
+}
+.logo h1{
+font-weight: 800 !important;
+
+}
+.logo h1:hover{
+	color: yellow !important;
+	transition: 1 !important;
+	font-weight: 1000 !important;
+}
+.logo{
+	align-self: center;
+	position: relative;
+	z-index: 3;
+}
+
+./*logo img{
+	max-width: 250px;
+	position: relative;
+	z-index: 2;
+	background:;
+	border-radius: 10px;
+
+
+}*/
+/*search input styling*/
+#form{
+	position: relative;
+	z-index: 999;
+}
+
+#form form{
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px 2px lightgray, -1px -1px 2px lightgray;
+	border-radius: 5px;
+	padding: 10px;
+	background: white;
+}
+#form form:hover{
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px 2px lightgray, -1px -1px 2px lightgray;
+	border-radius: 5px;
+	padding: 10px;
+	opacity: 90%;
+}
+#form i{
+	align-self: center;
+	font-size: 15px;
+	margin: 0 2px;
+}#form input{
+	border: none;
+	outline: none;
+	background: none;
+}
+/*nav links */
+
+#nav ul{
+	display: flex;
+	justify-content: center;
+}
+
+#nav ul li{
+	list-style: none;
+	margin: 0 10px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#nav a:hover{
+	color: yellow;
+	transition: 1s;
+}
+.sel{
+	border: none;
+	font-size:20px;
+	font-weight: bold;
+	background: ;
+	box-shadow: 2px 2px 2px lightgray, -2px -2px 2px lightgray;
+	border-radius: 5px;
+
+}
+
+/*users & cart icon*/
+
+#users{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+#users div{
+	font-size: 25px;
+	margin: 0 10px;
+}
+#users i{
+color: white;
+
+}
+#users i:hover{
+/*	opacity: 90%;*/
+color: yellow;
+transition: .5s;
+}
+.search{
+	display: none;
+}
+.cartBar {
+	position: relative;
+}
+.cartBar span{
+	 background: rgba(0, 0, 0, .30);
+	 padding: 3px 15px;
+	 margin: 0 5px;
+	 border-radius: 5px;
+	 font-size: 20px;
+	 position: relative;
+	 right: 0;
+	 transition: 1s;
+}
+/*==========HEADER STYLING END==========*/
+
+
+/* ========= HOMY STYLING START =======*/
+
+.homy{
+	margin-top: 100px;
+	padding: 60px 40px;
+}
+
+/*welcome*/
+.welcome div{
+	margin-top: 70px;
+}
+.welcome p{
+	font-size: 25px;
+}
+.welcome h1{
+	
+	font-weight: bold;
+	font-size: 40px;
+	margin: 15px 0;
+	line-height: 60px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+/*============= HOMY STYLING END ============*/
+
+
+
+/*============= ABOUT STYLING START ============*/
+
+.about{
+	
+	background: #273036;
+}
+.rr{padding: 20px;
+}
+.p{
+	margin-top: 100px;
+}
+.p p{
+	font-size: 18px;
+
+}
+.p span{
+	font-weight: 1000;
+	font-size: 25px;
+}
+.p p a{
+	text-decoration: none;
+	color: lightgray;
+	font-weight: bold;
+}
+.sh{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/*============= ABOUT STYLING END ============*/
+
+/*=========PAYMENT METHOD STYLING START==============*/
+.payment{
+	background: #273036;
+	padding: 150px 0;
+
+}
+.payment .tt{
+	margin-bottom: 50px;
+}
+.tt p{
+	font-size: 20px;
+	color: lightgray;
+}
+.paymentPics img{
+  width: 100%;
+  height: 100%;
+}.paymentPics{
+	padding-left:13% !important;
+}
+.paymentPics div{
+	align-content: center;
+width: 150px;
+height: 150px;
+margin: 20px 10px;
+	box-shadow: 2px 2px 5px white, -2px -2px 5px white;
+	border-radius: 10px;
+	background: lightgray;
+}
+.paymentPics div:hover{
+	background: rgba(0, 0, 0, .50);
+	transition: 1s;
+	transform: translateY(10px);
+}
+/*=========PAYMENT METHOD STYLING END==============*/
+
+
+/* ===== SHIPPING SECTION  START =====*/
+.shipp{
+	padding: 20px 10px 20px 35px;
+}
+.shipp i{
+	background: black !important;
+}
+.ship{
+	display:flex;
+	/*box-shadow: 2px 2px 4px lightgray, -2px -2px 4px lightgray;*/
+	justify-content: center;
+	padding: 40px 20px;
+	margin-top: 30px;
+}
+.ship > div{
+	padding:  10px;
+	display: block;
+	justify-content: center;
+
+}
+.ship div div{
+	background: white;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+	
+	min-height: 250px;
+	box-shadow: 1px 1px 2px lightgray, -1px -1px 2px lightgray;
+}
+.ship h1{
+	font-size: 20px;
+	margin: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ship p{
+	font-size: 15px;
+	font-weight: 500;
+}
+.ship i{
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+    font-size: 30px;
+	margin: 10px;
+	padding:;
+	border-radius: 50%;
+	color:white;
+	box-shadow: 2px 2px 2px 2px lightgray;
+} 
+.ship div div:hover{
+	background: #fafcfc;
+	transition: .5s;
+}
+.ship i:hover{
+	background: white !important;
+	color:black;
+	transition: .5s;
+	margin: 5px;
+}
+.us{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 20px;
+	/*background: #fff;*/
+	padding: 10px 5px;
+	border-radius: 10px;
+}
+
+/* ========= BEST STYLING START======*/
+
+.besti{
+	margin: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+.sp{
+	display: block;
+	height: 2px;
+	width: 20%;
+	align-self: center;
+	margin: 20px;
+}
+.besti-head{
+	font-size: 25px;
+	font-weight: 700;
+	
+
+}
+.best, .cloth, .bag, .cap, .watch, .shoe, .glass{
+	background: white;
+	padding: 20px  5px 20px 28px;
+	border-radius: 10px;
+
+}
+.seller, .clothes, .bag, .cap, .glass, .shoe, .watch{
+	padding: 10px;
+}
+.items{
+	
+	min-height: 200px;
+	margin: 15px 10px;
+padding: 10px 0 !important;
+	box-shadow: 2px 2px 4px lightgray, -5px -5px 8px /*#f7f4f2*/ white;
+
+}
+.pics{
+	max-height: 170px;
+	max-width: 160px;
+	margin: 2px 0;
+	border-radius: 20% 5%;
+	
+
+}
+.description{
+margin-top:5px;
+}
+.star{
+	margin:10px;
+}
+.star i{
+font-size: 10px;
+}
+.description h3{
+	font-size: 15px;
+	margin:5px;
+	font-weight: 600;
+}
+.description .amount{
+margin:5px;
+	
+}
+.price{
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 15px;
+}
+.discount{
+	margin-left: 10px;
+	font-size: 12px;
+	color: darkgray;
+	text-decoration: line-through;
+}
+.addy{
+	margin:5px;
+}
+.love{
+	margin-right: 25px;
+	font-size: 20px;
+}
+.addCart{
+	
+	margin-top: 12px;
+	font-weight: 550;
+}
+.addToCart:hover{
+	color:#2196F3;
+	transition: .5s;
+	transform: translateY(5px);
+}
+.love:hover{
+	color:/*#2196F3*/darkred;
+	transition: .5s;
+	transform: translateY(5px);
+}
+
+
+
+/* =========== CART STYLING ============ */
+
+.carty{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: -5000px;
+	transition: 1s;
+	z-index: 1;
+	background: rgba(0, 0, 0, .70);
+}
+.cartP{
+	display: block;
+	justify-content: center;
+	background: white;
+	background-position: center;
+	color: black;
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+
+}
+.catH{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	box-shadow: 0 0 2px gray;
+}
+.closecart{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 30px;
+	color: red;
+	background: white;
+	padding: 5px;
+	z-index: 1;
+	border-radius: 5px;
+}
+.cartBa{
+	position: absolute;
+	top: 5px;
+	left: 2px;
+	font-size: 25px;
+	color: white;
+	
+	padding: 5px;
+	z-index: 1;
+	border-radius: 5px;
+}
+.numbe{
+	background: rgba(0, 0, 0, .30);
+	padding: 2px 10px;
+	margin: 0 5px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.closecart:hover{
+	background: red;
+	color: white;
+	transition: .5s;
+}
+.carting{
+	display: flex;
+	justify-content: space-around;
+}
+.carting li{
+	margin: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	background: white;
+}
+.cartHead{
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	
+	box-shadow: 0 0 2px gray;
+}
+.order{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	bottom: 0;
+	position:absolute;
+	height: fit-content;
+	width: 100%;
+	background: white;
+	border-top: 2px solid lightgray;
+}
+.order h2{
+ font-size: 30px;
+ font-weight: 800;
+
+ margin: 0 20px;
+}
+.topy{
+margin: 80px 0 !important;
+}
+.itemCart{
+	margin: 40px 0;
+	padding: 15px !important;
+	background: white;
+box-shadow: 0 0 3px lightgray;
+	display: flex;
+	border-radius: 5px;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
+.productDetails{
+	margin: 0 10px;
+	position: relative;
+
+}
+.productDetails img{
+ max-width: 140px;
+ min-width: 140px;
+ max-height: 150px;
+ box-shadow: 1px 1px 1px lightgray, -1px -1px 1px lightgray;
+}
+.productDetails h3{
+	position: absolute;
+	right: 0;
+	bottom: -10px;
+	left: 0;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	padding: 2px;
+	border-radius:;
+	font-size: 15px;
+	background: rgba(0, 0, 0, .40);
+}
+.productDetails h3:hover{
+	background: black;
+	transition: .5s;
+}
+.increament{
+	padding: 0 10px;
+
+}
+.re{
+	padding: 0 10px;
+	
+}
+.increament button{
+  min-width: 100px;
+  font-size: 30px;
+  padding: 0 !important;
+  font-weight: 700;
+  height: 40px;
+
+}
+.quan{
+	margin: 10px;
+	display: block;
+}
+.times, .pricy{
+	margin: 0 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*========= GET OUR APP STYLING START =============*/
+
+
+.app{
+	padding: 70px 20px;
+}
+
+.getting{
+	margin-top: 70px;
+}
+.imm img{
+	margin-top: 30px;
+	background: ;
+	border-radius: 100%;
+	background-size: 80px;
+	box-shadow: 3px 3px 6px lightgray, -3px -3px 6px gray;
+}
+.getting p{
+	font-size: 20px;
+}
+.getting a{
+	font-size: 20px;
+	margin: 15px;
+	min-width: 100px;
+}
+/*========= GET OUR APP STYLING END =============*/
+
+/*========= CUSTOMER REVIEW STYLING START =============*/
+
+.review{
+	padding: 20px 50px 50px 10px ;
+}
+.review > div {
+	background: white;
+	padding: 50px 15px;
+	margin: 10px 20px;
+}
+.reviewH{
+	margin: 20px;
+}
+.fluiding{
+	padding: 15px;
+}
+.fluiding div{
+	box-shadow: 2px 2px 5px lightgray, -2px -2px 5px gray;
+	padding: 10px;
+	margin: 10px ;
+	border-radius: 15px;
+}
+.fluiding h3{
+	font-size: 15px;
+}
+.fluiding i{
+	font-size: 60px;
+	color: ;
+	background: ;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px gray, -2px -2px 3px gray;
+}
+
+/*========= CUSTOMER REVIEW STYLING END =============*/
+
+/* FOOTER */
+footer{
+	padding: 60px 30px;
+}
+footer h2{
+	font-size: 25px;
+	margin: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/*========CONTACT US START========*/
+.formy input, .formy textarea{
+	background: /*rgba(0, 0, 0, .10)*/ transparent;
+	border: 2px solid lightgray;
+	padding:  10px;
+	border: none;
+	text-align: center;
+	width: 100%;
+	border-radius: 15px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: inset 2px 2px 4px darkgray , inset -5px -5px 7px black;
+	margin: 10px;
+}
+.formy input:hover{
+	background: lightgray;
+	transition: .5s;
+	box-shadow: inset 2px 2px 4px darkgray , inset -5px -5px 7px #fff;
+}
+.formy textarea:hover{
+	background: lightgray;
+	transition: .5s;
+	box-shadow: inset 2px 2px 4px darkgray , inset -5px -5px 7px #fff;
+	box-shadow: ;
+}
+#bttt{
+margin: 10px;
+font-size: 20px;
+}
+
+.fle{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.links a{
+	text-decoration: none;
+	color: lightgray;
+}
+.links a:hover{
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+	transition: .5s;
+	transform: translateX(10px);
+}
+.links p{
+	font-size: 20px;
+}
+.soc{
+	display: block;
+	justify-content: center;
+}
+.soc div{
+	margin: 20px;
+}
+.soc a{
+	text-decoration: none;
+	color: lightgray;
+	margin: 10px;
+}
+.soc i{
+	font-size: 30px;
+}
+.soc i:hover{
+	color: white;
+	transition: 1s;
+	transform: translateY(10px);
+}
+.all p{
+	font-size: 15px ;
+	color: lightgray;
+	display: block;
+	justify-content: center;
+	text-align: center;
+}
+.all i{
+	font-size: 25px;
+	color: orange;
+}
+.all a{
+	text-decoration: none;
+	
+	font-weight: bolder;
+	color: white;
+}
+.line{
+	display: block;
+	background: lightgray;
+
+	height: 2px;
+	width: 100%;
+	margin: 20px 0;
+}
+/*============ RESPONSIVE STYLING =============*/
+@media (max-width: 1200px){
+/*nav link*/
+	#nav{
+	display: block;
+ 		position: fixed;
+   	left: -1000px;
+   	text-align: justify;
+   	top: 0;
+   	transition: 1s;
+   		/*background: steelblue;*/
+   	height: 100vh;
+   	padding-top: 100px;
+   	width: 60%;
+
+}
+/*.im{
+	height: 320px;
+	width: 420px;
+}*/
+   #nav ul{
+   	display: block;
+   	justify-content: center;
+   }
+   #nav ul li{
+   	margin: 15px ;
+
+   }
+   #nav ul li a{
+   	font-size: 20px;
+   /*	color: white;*/
+   }
+/*bars styling*/
+
+   .bars{
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+.bars i{
+	font-size: 30px;
+	position:fixed;
+	top: 30px;
+}
+#close{
+	display: none;
+}
+#open i, #close i{
+	box-shadow: 1px 1px 2px lightgray, -1px -1px 2px lightgray;
+	padding: 2px;
+	background: white;
+	color: black;
+	border-radius: 3px;
+}
+#open i:hover{
+	background: black;
+	color: white;
+	transition: .5s;
+}
+#close i:hover{
+	background: black;
+	color: white;
+	transition: .5s;
+}
+/*logo responsive styling*/
+.logo{
+	margin: 0 30px;
+}
+/*=========== HOMY STYLING==========*/
+.welcome div{
+	margin-top: 0;
+}
+
+/* ABOUT US */
+.p{
+	margin-top: 20px;
+}
+/*payment method */
+.paymentPics div{
+	align-content: center;
+width: 100px;
+height: 100px;
+margin: 30px 10px;
+	box-shadow: 2px 2px 5px white, -2px -2px 5px white;
+	border-radius: 10px;
+	background: lightgray;
+}
+
+}
+@media (max-width: 768px){
+
+.fle{
+	display: block;
+	justify-content: center;
+	text-align: justify;
+}
+
+	/*PAYMENT MODE */
+
+	.paymentPics div{
+	align-content: center;
+width: 100px;
+height: 100px;
+margin: 30px 10px;
+	box-shadow: 2px 2px 5px white, -2px -2px 5px white;
+	border-radius: 10px;
+	background: lightgray;
+}
+.paymentPics{
+	padding-left: 20% !important;
+}
+
+	/* HEADER RESPONSIVE STYLING */
+
+   /*nav link styling*/
+
+/*#nav{
+	display: block;
+		position: fixed;
+   	left: 0;
+   	text-align: justify;
+   	top: 0;
+   		background: steelblue;
+   	height: 100vh;
+   	width: 60%;
+
+}
+   #nav ul{
+   	display: block;
+   	justify-content: center;
+   }
+   #nav ul li{
+   	margin: 15px ;
+
+   }
+   #nav ul li a{
+   	font-size: 20px;
+   }
+
+/*form responsive styling*/
+.pics{
+	max-width: 1500px !important;
+	max-height: 150px !important;
+}
+.addCart{
+	font-size: 10px !important;
+}
+#form{
+	position: fixed;
+	top: -300px;
+	transition: 1s;
+}
+#form form{
+	width: 100%;
+
+}
+/*logo responsive styling*/
+
+.soc {
+	display: flex;
+	justify-content: center;
+}
+/*search icon display*/
+
+.search{
+	display: block;
+}
+
+/*bars display*/
+
+/*.bars{
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+.bars i{
+	font-size: 30px;
+	position:fixed;
+	top: 18px;
+}
+#close{
+	display: none;
+}
+#open i, #close{
+	box-shadow: 1px 1px 2px lightgray, -1px -1px 2px lightgray;
+	padding: 2px;
+	background: black;
+	color: white;
+	border-radius: 3px;
+}
+#open i:hover{
+	background: white;
+	color: black;
+	transition: .5s;
+}*/
+.bars{
+	margin: 10px;
+}
+.bars i{
+	font-size: 25px;
+	left: 15px !important;
+	position:fixed;
+	top: 15px;
+}
+.homy{
+	margin-top: 50px;
+	padding: 30px;
+}
+.welcome{
+	margin-bottom: 30px 20px;
+}
+
+.welcome p{
+	font-size: 20px;
+}
+.welcome h1{
+	
+	font-weight: bold;
+	font-size: 30px;
+	margin: 15px 0;
+	line-height: 40px;
+	letter-spacing:0;
+	word-spacing:0;
+}
+
+.logo img{
+	max-width: 150px;
+	position: relative;
+	z-index: 2;
+
+
+}
+.im{
+	margin-top: 20px;
+}
+/*.itemCart{
+	margin: 40px 10px;
+	padding: 15px 10px;
+	}
+	.productDetails img{
+ width: 120px !important;
+ height: 120px;
+ box-shadow: 1px 1px 1px lightgray, -1px -1px 1px lightgray;
+}
+*/
+}
+
+
+
+
+/* SMALLL SCREEN MOBILE RESPONSIVE*/
+
+@media (max-width: 500px){
+	.seller{
+		padding: 5px;
+
+	}
+.addCart{
+	font-size: 12px;
+}
+.re button{
+	font-size: 10px;
+
+}
+.increament button{
+	font-size: 12px;
+
+		
+}
+.quan span{
+	font-size: 13px;
+}
+.order h2{
+	font-size: 20px;
+}
+.order button{
+	font-size: 15px;
+	font-weight: 1000;
+}
+.productDetails img{
+ max-width: 80px;
+ max-height: 140px;
+ box-shadow: 1px 1px 1px lightgray, -1px -1px 1px white;
+}
+
+	
+}
+
